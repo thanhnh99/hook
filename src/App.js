@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-
+// import UseState from './hook/use-state/1.useState'
+// import Radio from './hook/use-state/2.radio'
+// import CheckBox from './hook/use-state/3.checkbox'
+// import TodoList from "./hook/use-state/4.todoList";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ padding: 50 }}>
+      {/*USE STATE
+          <UseState/>
+          <Radio/>
+          <CheckBox/>
+          <TodoList/> */}
     </div>
   );
 }
