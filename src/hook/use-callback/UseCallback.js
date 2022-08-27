@@ -30,6 +30,9 @@ function UseCallback() {
      *      Do đó khi memo so sánh prop, địa chỉ cùng chỉ về một vùng của bộ nhớ => memo sẽ không re-render lại component
      */
 
+    /**
+     * LƯU Ý: CHỈ DÙNG UseCallback khi sử dụng react memo
+     */
     return(
         <>
             <h1>{count}</h1>
