@@ -25,7 +25,7 @@ function UseCallback() {
 
     /**
      * - useCallback hoạt động tương tự như useEffect 
-     * - useEffect nhận tham số đầu tiên là một callback, đối số thứ 2 là dependency
+     * - useCallback nhận tham số đầu tiên là một callback, đối số thứ 2 là dependency
      * - Khi dependency là [], useCallback sẽ chỉ tạo ra duy nhất một instance của callback
      *      Do đó khi memo so sánh prop, địa chỉ cùng chỉ về một vùng của bộ nhớ => memo sẽ không re-render lại component
      */

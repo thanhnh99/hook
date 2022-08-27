@@ -10,7 +10,8 @@ import { useState } from "react";
 // import UseRef from "./hook/use-ref/UseRef";
 // import TodoList from "./hook/use-state/4.todoList";
 // import Memo from "./hook/memo/Memo"
-import UseCallback from "./hook/use-callback/UseCallback"
+// import UseCallback from "./hook/use-callback/UseCallback"
+import UseMemo from "./hook/use-memo/UseMemo"
 
 
 function App() {
@@ -34,7 +35,8 @@ function App() {
       {/* <UseRef/> */}
       {/* <Memo/> */}
 
-      <UseCallback/>
+      {/* <UseCallback/> */}
+      <UseMemo/>
     </div>
   );
 }
