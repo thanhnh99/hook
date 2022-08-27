@@ -9,7 +9,8 @@ import { useState } from "react";
 // import UseLayoutEffect from "./hook/use-layoutEffect/UseLayoutEffect";
 // import UseRef from "./hook/use-ref/UseRef";
 // import TodoList from "./hook/use-state/4.todoList";
-import UseCallback from "./hook/memo/Memo"
+// import Memo from "./hook/memo/Memo"
+import UseCallback from "./hook/use-callback/UseCallback"
 
 
 function App() {
@@ -31,6 +32,8 @@ function App() {
       }
       {/* <UseLayoutEffect/> */}
       {/* <UseRef/> */}
+      {/* <Memo/> */}
+
       <UseCallback/>
     </div>
   );
