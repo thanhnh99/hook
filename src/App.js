@@ -1,4 +1,4 @@
-import { useState } from "react";
+// import { useState } from "react";
 
 
 // import UseState from './hook/use-state/1.useState'
@@ -12,9 +12,16 @@ import { useState } from "react";
 // import Memo from "./hook/memo/Memo"
 // import UseCallback from "./hook/use-callback/UseCallback"
 // import UseMemo from "./hook/use-memo/UseMemo"
-import IncreDecreApp from "./hook/use-reducer/IncreDecreApp";
-import TodoApp from "./hook/use-reducer/TodoApp";
+// import IncreDecreApp from "./hook/use-reducer/IncreDecreApp";
+// import TodoApp from "./hook/use-reducer/TodoApp";
 
+
+// import UseContext from "./hook/use-context/base/UseContext";
+// import './App.css'
+// import { ThemeProvider } from "./hook/use-context/base/ThemeContext";
+
+import {StoreProvider} from "./hook/use-context/todos-app/store";
+import TodoApp from "./hook/use-context/todos-app/TodoApp";
 
 function App() {
 
@@ -40,7 +47,15 @@ function App() {
       {/* <UseCallback/> */}
       {/* <UseMemo/> */}
       {/* <IncreDecreApp/> */}
-      <TodoApp/>
+      {/* <TodoApp/> */}
+ 
+      {/* <ThemeProvider>
+        <UseContext/>
+      </ThemeProvider> */}
+
+      <StoreProvider>
+        <TodoApp/>
+      </StoreProvider>
     </div>
   );
 }
