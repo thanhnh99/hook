@@ -11,7 +11,9 @@ import { useState } from "react";
 // import TodoList from "./hook/use-state/4.todoList";
 // import Memo from "./hook/memo/Memo"
 // import UseCallback from "./hook/use-callback/UseCallback"
-import UseMemo from "./hook/use-memo/UseMemo"
+// import UseMemo from "./hook/use-memo/UseMemo"
+import IncreDecreApp from "./hook/use-reducer/IncreDecreApp";
+import TodoApp from "./hook/use-reducer/TodoApp";
 
 
 function App() {
@@ -36,7 +38,9 @@ function App() {
       {/* <Memo/> */}
 
       {/* <UseCallback/> */}
-      <UseMemo/>
+      {/* <UseMemo/> */}
+      {/* <IncreDecreApp/> */}
+      <TodoApp/>
     </div>
   );
 }
